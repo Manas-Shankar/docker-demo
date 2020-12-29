@@ -1,13 +1,13 @@
-CREATE DATABASE knights;
-use knights;
+CREATE DATABASE employees;
+use employees;
 
-CREATE TABLE favorite_colors (
+CREATE TABLE employees (
   name VARCHAR(20),
-  color VARCHAR(10)
+  eid VARCHAR(10)
 );
 
-INSERT INTO favorite_colors
-  (name, color)
+INSERT INTO employees
+  (name, eid)
 VALUES
-  ('Lancelot', 'blue'),
-  ('Galahad', 'yellow');
+  ('Lancelot', '1'),
+  ('Galahad', '2');
